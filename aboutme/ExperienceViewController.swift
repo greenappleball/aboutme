@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  ExperienceViewController.swift
 //  aboutme
 //
 //  Created by Dmitri Petrishin on 3/14/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ExperienceViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

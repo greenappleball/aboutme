@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  PersonaViewController.swift
 //  aboutme
 //
 //  Created by Dmitri Petrishin on 3/14/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class PersonaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

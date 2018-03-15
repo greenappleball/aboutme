@@ -9,11 +9,24 @@
 /* Begin PBXBuildFile section */
 		0CD3AEFA0371C4051DA40AFF /* Pods_aboutme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793D77CBA2856E46361A5F90 /* Pods_aboutme.framework */; };
 		F2BFF1E920595C0B00CBC711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF1E820595C0B00CBC711 /* AppDelegate.swift */; };
-		F2BFF1EB20595C0B00CBC711 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF1EA20595C0B00CBC711 /* FirstViewController.swift */; };
-		F2BFF1ED20595C0B00CBC711 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF1EC20595C0B00CBC711 /* SecondViewController.swift */; };
+		F2BFF1EB20595C0B00CBC711 /* PersonaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF1EA20595C0B00CBC711 /* PersonaViewController.swift */; };
+		F2BFF1ED20595C0B00CBC711 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF1EC20595C0B00CBC711 /* ExperienceViewController.swift */; };
 		F2BFF1F020595C0B00CBC711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BFF1EE20595C0B00CBC711 /* Main.storyboard */; };
 		F2BFF1F220595C0B00CBC711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BFF1F120595C0B00CBC711 /* Assets.xcassets */; };
 		F2BFF1F520595C0B00CBC711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BFF1F320595C0B00CBC711 /* LaunchScreen.storyboard */; };
+		F2BFF1FD20596F2A00CBC711 /* GeneralTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF1FC20596F2A00CBC711 /* GeneralTableViewController.swift */; };
+		F2BFF1FF205971AE00CBC711 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF1FE205971AE00CBC711 /* RealmManager.swift */; };
+		F2BFF2012059728800CBC711 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF2002059728800CBC711 /* Person.swift */; };
+		F2BFF2032059751800CBC711 /* CRUDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF2022059751800CBC711 /* CRUDService.swift */; };
+		F2BFF205205990EF00CBC711 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF204205990EE00CBC711 /* PersonCell.swift */; };
+		F2BFF2072059914600CBC711 /* ExperienceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF2062059914600CBC711 /* ExperienceCell.swift */; };
+		F2BFF2092059915700CBC711 /* AboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF2082059915700CBC711 /* AboutCell.swift */; };
+		F2BFF20B2059925600CBC711 /* GeneralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF20A2059925600CBC711 /* GeneralViewModel.swift */; };
+		F2BFF20D205A6A6C00CBC711 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF20C205A6A6C00CBC711 /* AddCell.swift */; };
+		F2BFF20F205A6A9D00CBC711 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF20E205A6A9D00CBC711 /* CardCell.swift */; };
+		F2BFF211205A7AD000CBC711 /* ExperienceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF210205A7AD000CBC711 /* ExperienceDetailViewController.swift */; };
+		F2BFF213205A7BF400CBC711 /* ExperienceDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF212205A7BF400CBC711 /* ExperienceDetailViewModel.swift */; };
+		F2BFF215205A941800CBC711 /* Fillable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF214205A941800CBC711 /* Fillable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +35,25 @@
 		F023448B7FD42A8DAA849D29 /* Pods-aboutme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aboutme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aboutme/Pods-aboutme.debug.xcconfig"; sourceTree = "<group>"; };
 		F2BFF1E520595C0B00CBC711 /* aboutme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aboutme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BFF1E820595C0B00CBC711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2BFF1EA20595C0B00CBC711 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F2BFF1EC20595C0B00CBC711 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F2BFF1EA20595C0B00CBC711 /* PersonaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaViewController.swift; sourceTree = "<group>"; };
+		F2BFF1EC20595C0B00CBC711 /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
 		F2BFF1EF20595C0B00CBC711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2BFF1F120595C0B00CBC711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2BFF1F420595C0B00CBC711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2BFF1F620595C0B00CBC711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BFF1FC20596F2A00CBC711 /* GeneralTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTableViewController.swift; sourceTree = "<group>"; };
+		F2BFF1FE205971AE00CBC711 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		F2BFF2002059728800CBC711 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F2BFF2022059751800CBC711 /* CRUDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDService.swift; sourceTree = "<group>"; };
+		F2BFF204205990EE00CBC711 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		F2BFF2062059914600CBC711 /* ExperienceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceCell.swift; sourceTree = "<group>"; };
+		F2BFF2082059915700CBC711 /* AboutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCell.swift; sourceTree = "<group>"; };
+		F2BFF20A2059925600CBC711 /* GeneralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewModel.swift; sourceTree = "<group>"; };
+		F2BFF20C205A6A6C00CBC711 /* AddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
+		F2BFF20E205A6A9D00CBC711 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		F2BFF210205A7AD000CBC711 /* ExperienceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceDetailViewController.swift; sourceTree = "<group>"; };
+		F2BFF212205A7BF400CBC711 /* ExperienceDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceDetailViewModel.swift; sourceTree = "<group>"; };
+		F2BFF214205A941800CBC711 /* Fillable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fillable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +107,25 @@
 			isa = PBXGroup;
 			children = (
 				F2BFF1E820595C0B00CBC711 /* AppDelegate.swift */,
-				F2BFF1EA20595C0B00CBC711 /* FirstViewController.swift */,
-				F2BFF1EC20595C0B00CBC711 /* SecondViewController.swift */,
+				F2BFF1EA20595C0B00CBC711 /* PersonaViewController.swift */,
+				F2BFF1EC20595C0B00CBC711 /* ExperienceViewController.swift */,
+				F2BFF210205A7AD000CBC711 /* ExperienceDetailViewController.swift */,
+				F2BFF212205A7BF400CBC711 /* ExperienceDetailViewModel.swift */,
+				F2BFF1FC20596F2A00CBC711 /* GeneralTableViewController.swift */,
+				F2BFF20A2059925600CBC711 /* GeneralViewModel.swift */,
+				F2BFF2062059914600CBC711 /* ExperienceCell.swift */,
+				F2BFF2082059915700CBC711 /* AboutCell.swift */,
+				F2BFF204205990EE00CBC711 /* PersonCell.swift */,
+				F2BFF20C205A6A6C00CBC711 /* AddCell.swift */,
+				F2BFF20E205A6A9D00CBC711 /* CardCell.swift */,
 				F2BFF1EE20595C0B00CBC711 /* Main.storyboard */,
 				F2BFF1F120595C0B00CBC711 /* Assets.xcassets */,
 				F2BFF1F320595C0B00CBC711 /* LaunchScreen.storyboard */,
 				F2BFF1F620595C0B00CBC711 /* Info.plist */,
+				F2BFF1FE205971AE00CBC711 /* RealmManager.swift */,
+				F2BFF2022059751800CBC711 /* CRUDService.swift */,
+				F2BFF2002059728800CBC711 /* Person.swift */,
+				F2BFF214205A941800CBC711 /* Fillable.swift */,
 			);
 			path = aboutme;
 			sourceTree = "<group>";
@@ -224,9 +263,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2BFF1ED20595C0B00CBC711 /* SecondViewController.swift in Sources */,
+				F2BFF2012059728800CBC711 /* Person.swift in Sources */,
+				F2BFF1FD20596F2A00CBC711 /* GeneralTableViewController.swift in Sources */,
+				F2BFF20B2059925600CBC711 /* GeneralViewModel.swift in Sources */,
+				F2BFF205205990EF00CBC711 /* PersonCell.swift in Sources */,
+				F2BFF215205A941800CBC711 /* Fillable.swift in Sources */,
+				F2BFF2032059751800CBC711 /* CRUDService.swift in Sources */,
+				F2BFF1ED20595C0B00CBC711 /* ExperienceViewController.swift in Sources */,
+				F2BFF2072059914600CBC711 /* ExperienceCell.swift in Sources */,
+				F2BFF1FF205971AE00CBC711 /* RealmManager.swift in Sources */,
+				F2BFF2092059915700CBC711 /* AboutCell.swift in Sources */,
+				F2BFF20D205A6A6C00CBC711 /* AddCell.swift in Sources */,
 				F2BFF1E920595C0B00CBC711 /* AppDelegate.swift in Sources */,
-				F2BFF1EB20595C0B00CBC711 /* FirstViewController.swift in Sources */,
+				F2BFF20F205A6A9D00CBC711 /* CardCell.swift in Sources */,
+				F2BFF213205A7BF400CBC711 /* ExperienceDetailViewModel.swift in Sources */,
+				F2BFF1EB20595C0B00CBC711 /* PersonaViewController.swift in Sources */,
+				F2BFF211205A7AD000CBC711 /* ExperienceDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
