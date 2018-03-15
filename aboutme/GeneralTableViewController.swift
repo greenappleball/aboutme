@@ -159,3 +159,9 @@ extension GeneralTableViewController: UIImagePickerControllerDelegate, UINavigat
     }
     
 }
+
+extension GeneralTableViewController {
+    override func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        view.endEditing(true)
+    }
+}
