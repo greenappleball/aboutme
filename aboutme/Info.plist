@@ -53,7 +53,7 @@
 	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>Access to camera is needed to get an avatar image</string>
-	<key>NSAppleMusicUsageDescription</key>
+	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Access to photos is needed to get an avatar image</string>
 </dict>
 </plist>

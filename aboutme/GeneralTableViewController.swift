@@ -140,6 +140,10 @@ extension GeneralTableViewController: UIImagePickerControllerDelegate, UINavigat
         })
         alert.addAction(choose)
 
+        let cell = tableView.cellForRow(at: IndexPath(row: 0, section: 0))
+        alert.popoverPresentationController?.sourceView = cell
+        alert.popoverPresentationController?.sourceRect = (cell?.frame)!
+
         present(alert, animated: true, completion: nil)
     }
 
