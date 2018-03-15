@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		0CD3AEFA0371C4051DA40AFF /* Pods_aboutme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793D77CBA2856E46361A5F90 /* Pods_aboutme.framework */; };
 		F2BFF1E920595C0B00CBC711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF1E820595C0B00CBC711 /* AppDelegate.swift */; };
-		F2BFF1EB20595C0B00CBC711 /* PersonaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF1EA20595C0B00CBC711 /* PersonaViewController.swift */; };
-		F2BFF1ED20595C0B00CBC711 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFF1EC20595C0B00CBC711 /* ExperienceViewController.swift */; };
 		F2BFF1F020595C0B00CBC711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BFF1EE20595C0B00CBC711 /* Main.storyboard */; };
 		F2BFF1F220595C0B00CBC711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BFF1F120595C0B00CBC711 /* Assets.xcassets */; };
 		F2BFF1F520595C0B00CBC711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BFF1F320595C0B00CBC711 /* LaunchScreen.storyboard */; };
@@ -36,8 +34,6 @@
 		F023448B7FD42A8DAA849D29 /* Pods-aboutme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aboutme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aboutme/Pods-aboutme.debug.xcconfig"; sourceTree = "<group>"; };
 		F2BFF1E520595C0B00CBC711 /* aboutme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aboutme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BFF1E820595C0B00CBC711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2BFF1EA20595C0B00CBC711 /* PersonaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaViewController.swift; sourceTree = "<group>"; };
-		F2BFF1EC20595C0B00CBC711 /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
 		F2BFF1EF20595C0B00CBC711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2BFF1F120595C0B00CBC711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2BFF1F420595C0B00CBC711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -109,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				F2BFF1E820595C0B00CBC711 /* AppDelegate.swift */,
-				F2BFF1EA20595C0B00CBC711 /* PersonaViewController.swift */,
-				F2BFF1EC20595C0B00CBC711 /* ExperienceViewController.swift */,
 				F2BFF210205A7AD000CBC711 /* ExperienceDetailViewController.swift */,
 				F2BFF212205A7BF400CBC711 /* ExperienceDetailViewModel.swift */,
 				F2BFF1FC20596F2A00CBC711 /* GeneralTableViewController.swift */,
@@ -272,7 +266,6 @@
 				F2BFF205205990EF00CBC711 /* PersonCell.swift in Sources */,
 				F2BFF215205A941800CBC711 /* Fillable.swift in Sources */,
 				F2BFF2032059751800CBC711 /* CRUDService.swift in Sources */,
-				F2BFF1ED20595C0B00CBC711 /* ExperienceViewController.swift in Sources */,
 				F2BFF2072059914600CBC711 /* ExperienceCell.swift in Sources */,
 				F2BFF1FF205971AE00CBC711 /* RealmManager.swift in Sources */,
 				F2BFF2092059915700CBC711 /* AboutCell.swift in Sources */,
@@ -281,7 +274,6 @@
 				F2BFF20F205A6A9D00CBC711 /* CardCell.swift in Sources */,
 				F2C9B754205AE04F00264DA8 /* UITextField+Ext.swift in Sources */,
 				F2BFF213205A7BF400CBC711 /* ExperienceDetailViewModel.swift in Sources */,
-				F2BFF1EB20595C0B00CBC711 /* PersonaViewController.swift in Sources */,
 				F2BFF211205A7AD000CBC711 /* ExperienceDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
