@@ -20,6 +20,6 @@ extension CardCell: Fillable {
         organizationLabel.text = model.organization
         positionLabel.text = model.position
         responsibilityLabel.text = model.responsibility
-        periodLabel.text = model.period
+        periodLabel.text = model.periodText
     }
 }

@@ -33,7 +33,12 @@ class Experience: Object {
     @objc dynamic var organization: String? = nil
     @objc dynamic var responsibility: String? = nil
     @objc dynamic var position: String? = nil
-    @objc dynamic var period: String? = nil
+    @objc dynamic var periodFrom: String? = nil
+    @objc dynamic var periodTo: String? = nil
+    var periodText: String {
+        return "from \(periodFrom ?? "-") to \(periodTo ?? "-")"
+    }
+    
 }
 
 extension Experience: CRUDService {}

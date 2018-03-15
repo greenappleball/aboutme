@@ -16,7 +16,8 @@ class ExperienceDetailViewModel: NSObject {
     var organization: String?
     var position: String?
     var responsibility: String?
-    var period: String?
+    var periodFrom: String?
+    var periodTo: String?
 
     // MARK:
     init(model: Experience?, person: Person) {
@@ -41,8 +42,11 @@ class ExperienceDetailViewModel: NSObject {
         if let value = responsibility {
             data[#keyPath(Experience.responsibility)] = value
         }
-        if let value = period {
-            data[#keyPath(Experience.period)] = value
+        if let value = periodFrom {
+            data[#keyPath(Experience.periodFrom)] = value
+        }
+        if let value = periodTo {
+            data[#keyPath(Experience.periodTo)] = value
         }
 
         // perform data
@@ -66,7 +70,8 @@ class ExperienceDetailViewModel: NSObject {
             model.organization = data[#keyPath(Experience.organization)] as? String
             model.position = data[#keyPath(Experience.position)] as? String
             model.responsibility = data[#keyPath(Experience.responsibility)] as? String
-            model.period = data[#keyPath(Experience.period)] as? String
+            model.periodFrom = data[#keyPath(Experience.periodFrom)] as? String
+            model.periodTo = data[#keyPath(Experience.periodTo)] as? String
             holder.experience.append(model)
         }
     }
