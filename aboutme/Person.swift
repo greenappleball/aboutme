@@ -14,13 +14,12 @@ class Person: Object {
 
     @objc dynamic var id: String? = nil
     @objc dynamic var year: String? = nil
-    @objc dynamic var avatar: String? = nil
     @objc dynamic var firstName: String? = nil
     @objc dynamic var lastName: String? = nil
     @objc dynamic var aboutMe: String? = nil
     var experience = List<Experience>()
 
-    var imagePath: String {
+    var avatar: String {
         let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
         return "\(paths[0])/MyImage.png"
     }

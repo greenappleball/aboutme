@@ -152,7 +152,7 @@ extension GeneralTableViewController: UIImagePickerControllerDelegate, UINavigat
         picker.dismiss(animated: true, completion: nil)
         let image = (info[UIImagePickerControllerOriginalImage] as? UIImage)!
         do {
-            try UIImagePNGRepresentation(image)?.write(to: URL(fileURLWithPath: viewModel.person.imagePath))
+            try UIImagePNGRepresentation(image)?.write(to: URL(fileURLWithPath: viewModel.person.avatar))
         } catch {
             debugPrint(error)
         }

@@ -25,7 +25,7 @@ extension PersonCell: Fillable {
         yearField.text = person.year
 
         do {
-            let url = URL(fileURLWithPath: person.imagePath)
+            let url = URL(fileURLWithPath: person.avatar)
             let data = try Data(contentsOf: url)
             let image = UIImage(data: data)
             avatarImageView.image = image
